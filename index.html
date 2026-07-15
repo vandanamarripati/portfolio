@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vandana Marripati — Full Stack Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="navbar">
+    <a href="#top" class="brand">VM<span class="brand-dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#timeline">Journey</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">// full-stack web development intern</p>
+      <h1 class="hero-title">Building things<br>with <span class="highlight">PHP</span>, <span class="highlight">MySQL</span><br>&amp; a lot of curiosity.</h1>
+      <p class="hero-sub">I'm Vandana Marripati — currently interning at ApexPlanet Software, turning HTML/CSS/JS layouts into working, database-backed applications.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-panel" aria-hidden="true">
+      <div class="code-window">
+        <div class="code-window-bar"><span></span><span></span><span></span></div>
+        <pre class="code-lines"><code><span class="c-key">function</span> <span class="c-fn">buildSomething</span>() {
+  <span class="c-key">const</span> stack = [<span class="c-str">'HTML'</span>, <span class="c-str">'CSS'</span>,
+    <span class="c-str">'JS'</span>, <span class="c-str">'PHP'</span>, <span class="c-str">'MySQL'</span>];
+  <span class="c-key">return</span> stack.<span class="c-fn">map</span>(skill =&gt;
+    learn(skill).<span class="c-fn">ship</span>()
+  );
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <article class="about-grid">
+      <div>
+        <p class="section-label">01 — About</p>
+        <h2 class="section-title">From layout to logic.</h2>
+        <p>I started with static HTML/CSS pages and I'm now working through a full-stack curriculum covering responsive frontend design, PHP backend logic, and MySQL data modeling. I like the moment a form actually <em>saves</em> something — that's when a page stops being a page and becomes an app.</p>
+        <p>This site is itself Task 1 of that journey: a hand-built, responsive portfolio with no frameworks, just semantic HTML5, CSS Grid/Flexbox, and vanilla JavaScript.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <p class="section-label">02 — Skills</p>
+    <h2 class="section-title">Currently working with</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><span class="skill-tag">HTML5</span><p>Semantic structure, forms, accessible markup.</p></div>
+      <div class="skill-card"><span class="skill-tag">CSS3</span><p>Flexbox, Grid, animations, responsive design.</p></div>
+      <div class="skill-card"><span class="skill-tag">JavaScript</span><p>DOM manipulation, events, form validation.</p></div>
+      <div class="skill-card"><span class="skill-tag">PHP</span><p>Server-side logic, forms, sessions.</p></div>
+      <div class="skill-card"><span class="skill-tag">MySQL</span><p>Schema design, CRUD, queries via phpMyAdmin.</p></div>
+      <div class="skill-card"><span class="skill-tag">Git &amp; GitHub</span><p>Version control, branching, collaboration.</p></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <p class="section-label">03 — Projects</p>
+    <h2 class="section-title">Selected work</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-thumb" aria-hidden="true">01</div>
+        <h3>This Portfolio</h3>
+        <p>A responsive personal site built with plain HTML, CSS and JS — Task 1 of the ApexPlanet Full Stack internship.</p>
+        <div class="project-links">
+          <a href="https://github.com/vandanamarripati/portfolio" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://vandanamarripati.github.io/portfolio/" target="_blank" rel="noopener">Live ↗</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb" aria-hidden="true">02</div>
+        <h3>Login &amp; Registration UI</h3>
+        <p>Responsive, validated auth screens with Bootstrap 5 and JS form handling. <em>(Task 2 — add link once built)</em></p>
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="#" target="_blank" rel="noopener">Live ↗</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb" aria-hidden="true">03</div>
+        <h3>User Management System</h3>
+        <p>PHP + MySQL CRUD app with hashed-password auth and profile uploads. <em>(Task 3 — add link once built)</em></p>
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="#" target="_blank" rel="noopener">Live ↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- TIMELINE / TABLE -->
+  <section id="timeline" class="section section-alt">
+    <p class="section-label">04 — Journey</p>
+    <h2 class="section-title">Internship roadmap</h2>
+    <div class="table-wrap">
+      <table class="roadmap-table">
+        <thead>
+          <tr><th>Task</th><th>Focus</th><th>Timeline</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Task 1</td><td>Foundation &amp; Environment Setup</td><td>Days 1–12</td><td><span class="status status-done">In progress</span></td></tr>
+          <tr><td>Task 2</td><td>Frontend Development, Responsive Design</td><td>Days 13–24</td><td><span class="status">Upcoming</span></td></tr>
+          <tr><td>Task 3</td><td>Backend Integration &amp; CRUD</td><td>Days 25–36</td><td><span class="status">Upcoming</span></td></tr>
+          <tr><td>Task 4</td><td>Real-World Project Development</td><td>Days 37–48</td><td><span class="status">Upcoming</span></td></tr>
+          <tr><td>Task 5</td><td>Capstone Project + Deployment</td><td>Days 49–60</td><td><span class="status">Upcoming</span></td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="4">Full Stack Web Development Internship — ApexPlanet Software Pvt. Ltd.</td></tr>
+        </tfoot>
+      </table>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <p class="section-label">05 — Contact</p>
+    <h2 class="section-title">Let's talk</h2>
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required minlength="2" placeholder="Your name">
+          <span class="field-error" id="nameError"></span>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+          <span class="field-error" id="emailError"></span>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="reason">Reason for contact</label>
+          <select id="reason" name="reason" required>
+            <option value="">Choose one</option>
+            <option value="opportunity">Job / internship opportunity</option>
+            <option value="collab">Project collaboration</option>
+            <option value="feedback">Feedback on my work</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+        <div class="form-field form-field-radio">
+          <span class="radio-legend">Preferred reply</span>
+          <label class="radio-label"><input type="radio" name="reply" value="email" checked> Email</label>
+          <label class="radio-label"><input type="radio" name="reply" value="phone"> Phone</label>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required minlength="10" placeholder="Tell me a bit about it..."></textarea>
+        <span class="field-error" id="messageError"></span>
+      </div>
+      <button type="submit" class="btn btn-primary">Send message</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Built by Vandana Marripati · ApexPlanet Full Stack Internship · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
