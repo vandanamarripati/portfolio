@@ -89,7 +89,7 @@ img, video { max-width: 100%; display: block; }
   background: none;
   border: none;
   cursor: pointer;
-  padding: 6px;
+  padding: 7px;
 }
 .nav-toggle span { width: 24px; height: 2px; background: var(--ink); border-radius: 2px; }
 
