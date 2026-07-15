@@ -63,7 +63,7 @@ img, video { max-width: 100%; display: block; }
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 28px;
+  gap: 27px;
   margin: 0;
   padding: 0;
   align-items: center;
